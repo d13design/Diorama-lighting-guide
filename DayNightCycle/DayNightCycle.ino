@@ -38,10 +38,11 @@ unsigned int sunsetStart = 1800;
 unsigned int duskStart = 1950;
 
 // Colours are defined as arrays in the form of {R, G, B}
+
+// Colour mode: Clear Sky
 unsigned int nightSkyRGB[] = {0,0,15};
 unsigned int daySkyRGB[] = {250,250,180};
 unsigned int sunsetSkyRGB[] = {250,20,20};
-
 unsigned int moonRGB[] = {30,30,120};
 unsigned int sunRGB[] = {220,230,255};
 unsigned int sunsetSunRGB[] = {250,60,30};
