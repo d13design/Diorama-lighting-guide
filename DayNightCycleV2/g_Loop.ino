@@ -19,7 +19,7 @@ void loop() {
     // Intialise a dusk fade
     isDuskFading = true;
     // Will it thunder tonight? Let's roll the dice...
-    if(random(10) <= chanceOfThunder){
+    if(random(10) <= chanceOfThunder && chanceOfThunder != 0){
       isThunder = true;
     }else{
       isThunder = false;
