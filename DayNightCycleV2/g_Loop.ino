@@ -34,7 +34,7 @@ void loop() {
   // Trigger a lightning strike if a thunderstorm is happening
   if(isThunder && !isThundering && random(500) <= 2){
     isThundering = true;
-    thunderSequenceSelection = random(5);
+    thunderSequenceSelection = random(4)+1;
   }
   if(isThundering) lightning();
 
